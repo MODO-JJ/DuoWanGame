@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YY安全中心 - 找回密码</title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            margin: 0 auto 0;
+            width:810px;
+            height: 570px;
+            /*border: 1px solid red;*/
+            box-sizing: border-box;
+        }
+        .top{
+            width: 100%;
+            height: 80px;
+            /*border:  1px solid red;*/
+            border-bottom: 1px solid darkgray;
+        }
+        .top h3{
+            font-size: 16px;
+            margin-left: 20px;
+            line-height: 80px;
+            vertical-align: center;
+        }
+        form{
+            margin-left: 200px;
+        }
+        .bd h3{
+            font-size: 14px;
+            color: #3e3e3e;
+            padding: 15px 0;
+            display: block;
+        }
+        .bd .form_input{
+            overflow: hidden;
+            position: relative;
+            margin: 0 auto;
+            height: 28px;
+            line-height: 28px;
+            padding: 10px 0 10px 0;
+        }
+        .form_input label{
+            color: black;
+            float: left;
+            padding-right: 8px;
+            font-size: 14px;
+            width: 58px;
+        }
+        .form_input input{
+            float: left;
+            border: 1px solid #CCCCCC;
+            border-radius: 3px 3px 3px 3px;
+            width: 245px;
+            height: 28px;
+        }
+        .form_img{
+            overflow: hidden;
+            float: left;
+            margin-right: 24px;
+            padding-left: 65px;
+            margin-top: 10px;
+        }
+        .form_img img{
+            width: 150px;
+            height: 52px;
+        }
+        .form_img a{
+            font-size: 12px;
+            text-decoration: none;
+            color: #0099CB;
+            margin-left: 20px;
+            line-height: 52px;
+            vertical-align: top;
+        }
+        .bd button{
+            width: 175px;
+            height: 40px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+
+
+        }
+        .bd button{
+            text-align: center;
+            border: 1px solid #0099CB;
+            background: none;
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+            color: #0099CB;
+            transition: 0.8s;
+            position: relative;
+            overflow: hidden;
+        }
+        .bd button:hover{
+            color: #fff;
+        }
+        .btn1::before{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-radius:  0 0 50% 50%;
+            height: 10px;
+            width: 100%;
+            background-color: #0099CB;
+            z-index: -1;
+            transition: 0.8s;
+        }
+        .btn1:hover::before{
+            height: 50px;
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+<div class="top">
+    <h3>找回密码</h3>
+</div>
+<div class="bd">
+    <form>
+        <h3>请输入遇到问题的欢聚时代帐号 ,支持帐号、邮箱、手机号、YY号</h3>
+        <div class="form_input">
+            <label>帐&nbsp;&nbsp;&nbsp;号：</label>
+                <input type="text" placeholder="    帐号\邮箱\手机号\YY号">
+
+        </div>
+        <div class="form_input">
+            <label>验证码：</label>
+                <input type="text" placeholder="    输入下图的验证码">
+
+        </div>
+        <div class="form_img">
+            <img src="zc-images/yzm.jpg"><a href="#">换一张</a><br><br>
+            <button class="btn1">下一步</button>
+        </div>
+
+    </form>
+</div>
+</body>
+</html>

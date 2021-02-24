@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body_yxkh{
+    margin: 20px auto 0;
+    overflow: hidden;
+    /*border: 1px solid red;*/
+    width: 100%;
+    height: 300px;
+    padding: 12px 0 30px;
+    background: #f7f8fa url("../images/bj.png") no-repeat 50% 50%;
+}
+.body_yxkh_all{
+    width: 1200px;
+    margin: 0 auto;
+}
+.body_yxkh_title{
+    width: 1200px;
+    margin-top: 35px;
+    position: relative;
+    display:inline-block;
+    box-sizing: border-box;
+    border-bottom: 1px solid darkgray;
+}
+.body_yxkh_title img{
+
+}
+.body_yxkh_title h4{
+    color: #333;
+    font-size: 22px;
+    font-weight: 400;
+    display: inline;
+    position: absolute;
+    top: -5px;
+    left: 40px;
+}
+.body_yxkh_title h5{
+    font-size: 12px;
+    display: inline;
+    position: absolute;
+    right: 0;
+    color: grey;
+}
+.body_yxkh_content dl{
+    display: inline-block;
+    width: 190px;
+    height: 158px;
+    margin-top: 20px;
+    margin-right: 6px;
+    padding-top: 30px;
+    border-radius: 4px;
+    background-color: #fff;
+    text-align: center;
+}
+.body_yxkh_content dt {
+    position: relative;
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.body_yxkh_content .yxkh_a{
+    margin-top: 10px;
+}
+.body_yxkh_content  a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.body_yxkh_content  a:hover{
+    color: #ea4e54;
+}
+.body_yxkh_content em{
+    color: #999;
+    font-style: inherit;
+    font-size: 12px;
+}
+.body_yxkh_content img{
+    width: 80px;
+    height: 80px;
+}
